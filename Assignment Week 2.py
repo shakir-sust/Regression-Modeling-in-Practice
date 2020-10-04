@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr  7 13:52:07 2019
+Created on Sun Oct 4 09:32:51 2019
 
-@author: Voltas
+@author: Md. Shakir Moazzem
 """
 
 import numpy
