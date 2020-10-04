@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr 14 14:59:00 2019
+Created on Sun Oct 14 14:59:00 2020
 
-@author: Voltas
+@author: Md. Shakir Moazzem
 """
 
 import numpy
@@ -247,35 +247,3 @@ fig3 = sm.graphics.plot_regress_exog(reg6,  "CUFREQ_c", fig=fig3)
 fig4 = plt.figure(figsize=(36,24))
 fig4=sm.graphics.influence_plot(reg6, size=2)
 print(fig4)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
