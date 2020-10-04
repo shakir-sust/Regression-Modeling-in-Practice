@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 19 20:20:07 2019
+Created on Sun Oct 4 23:54:42 2020
 
-@author: Voltas
+@author: Md. Shakir Moazzem
 """
 
 import numpy
@@ -135,6 +135,3 @@ conf = logreg4.conf_int()
 conf['OR'] = params
 conf.columns = ['Lower CI', 'Upper CI', 'OR']
 print (numpy.exp(conf))
-
-
-
